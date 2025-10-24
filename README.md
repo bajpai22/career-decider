@@ -27,45 +27,7 @@ An interactive Streamlit web application designed to help B.Tech Computer Scienc
 9. **Game Development** - Unity, Unreal Engine, AR/VR
 10. **Research & Academia** - AI Research, Quantum Computing, Education
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package manager)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/career-decider.git
-   cd career-decider
-   ```
-
-2. **Create a virtual environment** (recommended)
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Create the config directory**
-   ```bash
-   mkdir .streamlit
-   ```
-   Then create a `config.toml` file inside `.streamlit/` with the theme configuration.
-
-### Running the App
-
-```bash
-streamlit run app.py
-```
-
-The app will open automatically in your default browser at `http://localhost:8501`
 
 ## 📁 Project Structure
 
@@ -102,7 +64,7 @@ The app uses a weighted scoring system that:
 - **Detailed Information**: Skills, salary ranges, companies, learning resources
 - **Downloadable Report**: Text-based career report
 
-## 📸 Screenshots
+
 
 ### Home Page
 The landing page welcomes users and explains the assessment process.
@@ -120,18 +82,7 @@ Personalized career recommendations with match scores, skills needed, salary inf
 - **Pandas**: Data manipulation
 - **NumPy**: Numerical computations
 
-## 🌐 Deployment
 
-### Deploy on Streamlit Community Cloud
-
-1. Push your code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Sign in with GitHub
-4. Select your repository and branch
-5. Set the main file path to `app.py`
-6. Click "Deploy"
-
-Your app will be live at: `https://[your-app-name].streamlit.app`
 
 ### Environment Variables
 No environment variables or API keys required - the app runs entirely on user inputs.
@@ -177,21 +128,15 @@ Contributions are welcome! Here's how you can help:
 5. Push to the branch (`git push origin feature/improvement`)
 6. Create a Pull Request
 
-### Ideas for Contribution
-- Add more career domains
-- Improve the scoring algorithm
-- Add visualization charts for match scores
-- Implement user authentication and result history
-- Add multilingual support
-- Create PDF export for reports
+
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. 
 
 ## 👨‍💻 Author
 
-Created with ❤️ for CS students
+Created with ❤️ for CS students by Aryan bajpai
 
 ## 🙏 Acknowledgments
 
@@ -231,5 +176,6 @@ This tool provides career guidance based on user inputs and predefined criteria.
 ---
 
 **Made with Streamlit** | **Python 3.8+** | **Open Source**
+
 
 ⭐ Star this repository if you find it helpful!
